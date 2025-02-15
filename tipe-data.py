@@ -16,3 +16,8 @@ firstName = "Ilham"
 lastName = "Oktavian"
 age = 24
 isMarried = False
+
+print(f"Nama Depan {firstName}")
+print(f"Nama Belakang {lastName}")
+print(f"Umur {age}")
+print(f"Nikah ? {isMarried} ")

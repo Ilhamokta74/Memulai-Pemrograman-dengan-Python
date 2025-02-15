@@ -21,6 +21,8 @@ for i in range(len(var_array)):
         total += var_array[i]
 
 result = int(total / len(var_array))
+print(result)
 
 # BISA JUGA MENGGUNAKAN INI
 result = sum(var_array) / len(var_array)
+print(result)

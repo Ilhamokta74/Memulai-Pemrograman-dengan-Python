@@ -25,13 +25,13 @@ var_list = [792564, 465231, 203748, 981037, 857219, 314092, 608345, 123907, 7368
 235780, 857943, 605132, 125094, 620493, 913250
 ]
 
-panjang = 0
-maksimal = 0
-minimal = 0
-banyak = 0
-
 # TODO: Buat kode Anda di bawah ini
 panjang = len(var_list)
 maksimal = max(var_list)
 minimal = min(var_list)
 banyak = var_list.count(605132)
+
+print(f"Panjang Array {panjang}")
+print(f"Nilai Maksimal {maksimal}")
+print(f"Nilai Manimal {minimal}")
+print(f"banyak data 605132 {banyak} ")

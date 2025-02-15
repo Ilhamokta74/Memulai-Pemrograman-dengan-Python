@@ -19,8 +19,13 @@ Catatan:
 
 # TODO: Silakan buat kode Anda di bawah ini.
 data_diri = {
-"firstName": "Ilham",
-"lastName": "Oktavian",
-"age": 24,
-"isMarried": False
+    "firstName": "Ilham",
+    "lastName": "Oktavian",
+    "age": 24,
+    "isMarried": False
 }
+
+print(f"Nama Depan: {data_diri['firstName']}")
+print(f"Nama Belakang: {data_diri['lastName']}")
+print(f"Umur: {data_diri['age']}")
+print(f"Nikah? {data_diri['isMarried']}")
